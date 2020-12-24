@@ -1,0 +1,78 @@
+body{
+    background-color: bisque;
+}
+
+header {
+width: 80%;
+margin: 2rem auto;
+text-align: center;
+}
+
+main{
+    /* background-color: cadetblue; */
+    width: 95%;
+    max-width: 900px;
+    min-height: 700px;
+    height: 70vh;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-areas: 
+    "a . . . b"
+    ". c c c ."
+    ". c c c ."
+    "d . . . e"
+    ". . f . .";
+}
+.tl-box {
+    grid-area: a;
+    align-self: center;
+    text-align: center;
+}
+.tr-box {
+    grid-area: b;
+    align-self: center;
+    text-align: center;
+}
+.bl-box {
+    grid-area: d;
+    align-self: center;
+    text-align: center;
+}
+.br-box {
+    grid-area: e;
+    align-self: center;
+    text-align: center;
+}
+.main-box {
+    grid-area: c;
+    content: '';
+    background-color: cornflowerblue;
+}
+.submit {
+    grid-area: f;
+    align-self: center;
+    text-align: center;
+}
+
+.btn {
+    padding: .8rem;
+    font-size: 17px;
+    background-color: darkcyan;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: orange;
+}
+.btn2 {
+    margin-top: 1rem;
+    padding: .8rem;
+    font-size: 17px;
+    background-color: orange;
+    color: #ffffff;
+}
+
+.btn2:hover {
+    background-color: darkcyan;
+}
+
