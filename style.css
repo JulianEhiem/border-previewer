@@ -53,6 +53,9 @@ main{
     align-self: center;
     text-align: center;
 }
+.input-field {
+    width: 40px;
+}
 
 .btn {
     padding: .8rem;
